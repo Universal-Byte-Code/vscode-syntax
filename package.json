@@ -1,0 +1,75 @@
+{
+    "name": "vscode-ubytec",
+    "displayName": "Universal Byte Code Language Support",
+    "icon": "images/package-icon.png",
+    "description": "Syntax highlighting, language features, and tooling support for Ubytec.",
+    "version": "0.0.1",
+    "publisher": "universal-byte-code",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "Ubytec",
+                "aliases": [
+                    "Ubytec",
+                    "ubytec",
+                    "universal byte code",
+                    "Universal Byte Code"
+                ],
+                "extensions": [
+                    ".ubc",
+                    ".uby",
+                    ".ubytec"
+                ],
+                "firstLine": "^\\s*module\\s*\\(.*\\)\\s*\\{",
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "iconThemes": [
+            {
+              "id": "ubytec-icon-theme",
+              "label": "Ubytec Icon Theme",
+              "path": "./language-icon-theme.json"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Ubytec Purple K",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ubytec-purple-k-theme.json"
+            },
+            {
+                "label": "Ubytec Aqua Ember",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ubytec-aqua-ember-theme.json"
+            },
+            {
+                "label": "Ubytec Future Thunder",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ubytec-future-thunder-theme.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "Ubytec",
+                "scopeName": "source.ubytec",
+                "path": "./syntaxes/ubytec.tmLanguage.json"
+            }
+        ],
+        "configurationDefaults": {
+            "[Ubytec]": {
+                "editor.tabSize": 4,
+                "editor.insertSpaces": true,
+                "editor.autoClosingBrackets": "always"
+            }
+        }
+    },
+    "devDependencies": {
+        "typescript": "^5.8.2"
+    }
+}

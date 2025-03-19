@@ -1,0 +1,295 @@
+{
+    "name": "Ubytec Aqua Ember",
+    "type": "dark",
+    "colors": {
+        "editor.foreground": "#E8F8F5",
+        "editor.background": "#012B36",
+        "editor.selectionBackground": "#084C58",
+        "editor.selectionHighlightBackground": "#0A666E55",
+        "editor.lineHighlightBackground": "#01353E",
+        "editorCursor.foreground": "#FFBD2E",
+        "editorWhitespace.foreground": "#126873",
+        "editorIndentGuide.background1": "#0B3D44",
+        "editorIndentGuide.activeBackground1": "#16A2B2"
+    },
+    "tokenColors": [
+        {
+            "scope": "operator",
+            "settings": {
+                "foreground": "#FFC107",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "scope": "entity.name.label.ubytec",
+            "settings": {
+                "foreground": "#4DD0E1",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "scope": "keyword.control.ubytec",
+            "settings": {
+                "foreground": "#FF6F6F",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "keyword.control.flow.ubytec",
+            "settings": {
+                "foreground": "#F48FB1"
+            }
+        },
+        {
+            "scope": "keyword.operator.arithmetic.ubytec",
+            "settings": {
+                "foreground": "#AED581"
+            }
+        },
+        {
+            "scope": "keyword.memory.ubytec",
+            "settings": {
+                "foreground": "#90CAF9"
+            }
+        },
+        {
+            "scope": "entity.name",
+            "settings": {
+                "foreground": "#E1BEE7"
+            }
+        },
+        {
+            "scope": "entity.name.type",
+            "settings": {
+                "foreground": "#B39DDB"
+            }
+        },
+        {
+            "scope": "constant.numeric.int.ubytec",
+            "settings": {
+                "foreground": "#FFCC80"
+            }
+        },
+        {
+            "scope": "constant.numeric.long.ubytec",
+            "settings": {
+                "foreground": "#FFCC80"
+            }
+        },
+        {
+            "scope": "constant.numeric.hex.ubytec",
+            "settings": {
+                "foreground": "#CE93D8"
+            }
+        },
+        {
+            "scope": "constant.numeric.float.ubytec",
+            "settings": {
+                "foreground": "#80CBC4"
+            }
+        },
+        {
+            "scope": "constant.numeric.double.ubytec",
+            "settings": {
+                "foreground": "#80CBC4"
+            }
+        },
+        {
+            "scope": "constant.numeric.binary.ubytec",
+            "settings": {
+                "foreground": "#CE93D8"
+            }
+        },
+        {
+            "scope": "comment.line.double-slash.ubytec",
+            "settings": {
+                "foreground": "#9E9E9E",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "comment.block.ubytec",
+            "settings": {
+                "foreground": "#9E9E9E",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "string.quoted.double.ubytec",
+            "settings": {
+                "foreground": "#C5E1A5"
+            }
+        },
+        {
+            "scope": "keyword.stack.ubytec",
+            "settings": {
+                "foreground": "#EA80FC"
+            }
+        },
+        {
+            "scope": "keyword.operator.bitwise.ubytec",
+            "settings": {
+                "foreground": "#FFD54F"
+            }
+        },
+        {
+            "scope": "keyword.operator.comparison.ubytec",
+            "settings": {
+                "foreground": "#AED581"
+            }
+        },
+        {
+            "scope": "keyword.control.jump.ubytec",
+            "settings": {
+                "foreground": "#EA80FC"
+            }
+        },
+        {
+            "scope": "keyword.function.call.ubytec",
+            "settings": {
+                "foreground": "#90CAF9"
+            }
+        },
+        {
+            "scope": "keyword.syscall.ubytec",
+            "settings": {
+                "foreground": "#FFAB91"
+            }
+        },
+        {
+            "scope": "keyword.threading.ubytec",
+            "settings": {
+                "foreground": "#FFD54F"
+            }
+        },
+        {
+            "scope": "keyword.security.ubytec",
+            "settings": {
+                "foreground": "#FFAB91"
+            }
+        },
+        {
+            "scope": "keyword.exception.ubytec",
+            "settings": {
+                "foreground": "#FF8A80"
+            }
+        },
+        {
+            "scope": "keyword.vector.ubytec",
+            "settings": {
+                "foreground": "#80DEEA"
+            }
+        },
+        {
+            "scope": "keyword.audio.ubytec",
+            "settings": {
+                "foreground": "#90CAF9"
+            }
+        },
+        {
+            "scope": "keyword.system.ubytec",
+            "settings": {
+                "foreground": "#C5E1A5"
+            }
+        },
+        {
+            "scope": "keyword.ml.ubytec",
+            "settings": {
+                "foreground": "#FFE082"
+            }
+        },
+        {
+            "scope": "keyword.power.ubytec",
+            "settings": {
+                "foreground": "#FFD54F"
+            }
+        },
+        {
+            "scope": "keyword.quantum.ubytec",
+            "settings": {
+                "foreground": "#EA80FC"
+            }
+        },
+        {
+            "scope": "variable.parameter.ubytec",
+            "settings": {
+                "foreground": "#FFAB91"
+            }
+        },
+        {
+            "scope": "storage.modifier.ubytec",
+            "settings": {
+                "foreground": "#F06292"
+            }
+        },
+        {
+            "scope": "constant.boolean",
+            "settings": {
+                "foreground": "#FF6F6F"
+            }
+        },
+        {
+            "scope": "invalid.illegal.ubytec",
+            "settings": {
+                "foreground": "#FF5252",
+                "fontStyle": "bold strikethrough"
+            }
+        },
+        {
+            "name": "Storage Type Single",
+            "scope": "storage.type.single.ubytec",
+            "settings": {
+                "foreground": "#7C4DFF",
+                "fontStyle": "bold underline"
+            }
+        },
+        {
+            "name": "Storage Type Single Nullable",
+            "scope": "storage.type.single.nullable.ubytec",
+            "settings": {
+                "foreground": "#7C4DFF",
+                "fontStyle": "bold underline"
+            }
+        },
+        {
+            "name": "Storage Type Array",
+            "scope": "storage.type.array.ubytec",
+            "settings": {
+                "foreground": "#7C4DFF",
+                "fontStyle": "bold underline"
+            }
+        },
+        {
+            "name": "Storage Type Array Nullable Items",
+            "scope": "storage.type.array.nullable-items.ubytec",
+            "settings": {
+                "foreground": "#7C4DFF",
+                "fontStyle": "bold underline"
+            }
+        },
+        {
+            "name": "Storage Type Array Nullable Array",
+            "scope": "storage.type.array.nullable-array.ubytec",
+            "settings": {
+                "foreground": "#7C4DFF",
+                "fontStyle": "bold underline"
+            }
+        },
+        {
+            "name": "Storage Type Array Nullable Both",
+            "scope": "storage.type.array.nullable-both.ubytec",
+            "settings": {
+                "foreground": "#7C4DFF",
+                "fontStyle": "bold underline"
+            }
+        },
+        {
+            "name": "Arrow Operator in Func Signature",
+            "scope": "punctuation.arrow.ubytec",
+            "settings": {
+                "foreground": "#FFC107",
+                "fontStyle": "italic bold"
+            }
+        }
+    ]
+}

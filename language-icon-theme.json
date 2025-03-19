@@ -1,0 +1,12 @@
+{
+	"iconDefinitions": {
+	  "Ubytec": {
+		"iconPath": "./images/language-icon.png"
+	  }
+	},
+	"fileExtensions": {
+	  "ubc": "Ubytec",
+	  "uby": "Ubytec",
+	  "ubytec": "Ubytec"
+	}
+  }
