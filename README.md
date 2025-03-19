@@ -8,9 +8,18 @@ Universal Byte Code Syntax is a Visual Studio Code extension that brings powerfu
 ## Features
 
 - **Syntax Highlighting:** Enjoy precise highlighting for Universal Byte Code files (`.ubc`, `.uby`, `.ubytec`).
+  
+  ![Syntax Highlight](https://github.com/user-attachments/assets/1a7c0b00-0dea-476c-a6e9-67dec3549846) ![Syntax Highlight 2](https://github.com/user-attachments/assets/d9e26258-b8f2-402e-a498-e82a0871990a)
+  
 - **Language Configuration:** Includes smart indentation rules, bracket matching, and comment toggling.
 - **Custom Icon Theme:** Show off your Ubytec files with a dedicated icon.
-- **Themes & Styling:** Comes bundled with the _Ubytec Purple K_ theme for a fresh, modern coding experience.
+
+  ![Icon](https://github.com/user-attachments/assets/488ba1e1-ded2-4b60-9c84-b8c8e9a4297d)
+  
+- **Themes & Styling:** Comes bundled with the _Ubytec Purple K, Ubytec Future Thunder and Ubytec Aqua Ember_ themes for a fresh, modern coding experience.
+  
+  ![Themes](https://github.com/user-attachments/assets/a10f132c-f723-4400-ba82-0251cc6657f4)
+  
 - **Easy Installation:** Get up and running quickly with a seamless installation via the VS Code Marketplace.
 
 ## Installation
