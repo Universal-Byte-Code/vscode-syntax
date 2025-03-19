@@ -1,6 +1,6 @@
 # Universal Byte Code Syntax
 
-[![Visual Studio Code Marketplace](https://img.shields.io/vscode-marketplace/v/universal-byte-code.vscode-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=universal-byte-code.vscode-syntax)
+[![Visual Studio Code Marketplace](https://img.shields.io/vscode-marketplace/v/universal-byte-code.vscode-ubytec.svg)](https://marketplace.visualstudio.com/items?itemName=universal-byte-code.vscode-ubytec)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Universal Byte Code Syntax is a Visual Studio Code extension that brings powerful language support for Universal Byte Code (Ubytec). It provides robust syntax highlighting, language configurations, custom icon themes, and integrated tooling support to help you code smarter, faster, and with style.
